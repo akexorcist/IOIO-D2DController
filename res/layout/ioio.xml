@@ -1,0 +1,111 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#555555" >
+
+    <requestFocus />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/ip_margin_left"
+            android:layout_marginTop="@dimen/ip_margin_vertical"
+            android:gravity="center"
+            android:orientation="horizontal" >
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonMode"
+            android:layout_width="@dimen/button_mode_width"
+            android:layout_height="@dimen/button_mode_height"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="@dimen/button_margin"
+            android:background="@drawable/button_mode_ioio"
+            android:button="@null"
+            android:checked="false" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <CheckBox
+                android:id="@+id/checkBox1"
+                android:layout_width="@dimen/button_size"
+                android:layout_height="@dimen/button_size"
+                android:layout_margin="@dimen/button_margin"
+                android:background="@drawable/button_led"
+                android:button="@null"
+                android:gravity="center"
+                android:text="1"
+                android:textSize="@dimen/text_button_size" />
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="@dimen/button_size"
+                android:layout_height="@dimen/button_size"
+                android:layout_margin="@dimen/button_margin"
+                android:background="@drawable/button_led"
+                android:button="@null"
+                android:gravity="center"
+                android:text="2"
+                android:textSize="@dimen/text_button_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <CheckBox
+                android:id="@+id/checkBox3"
+                android:layout_width="@dimen/button_size"
+                android:layout_height="@dimen/button_size"
+                android:layout_margin="@dimen/button_margin"
+                android:background="@drawable/button_led"
+                android:button="@null"
+                android:gravity="center"
+                android:text="3"
+                android:textSize="@dimen/text_button_size" />
+
+            <CheckBox
+                android:id="@+id/checkBox4"
+                android:layout_width="@dimen/button_size"
+                android:layout_height="@dimen/button_size"
+                android:layout_margin="@dimen/button_margin"
+                android:background="@drawable/button_led"
+                android:button="@null"
+                android:gravity="center"
+                android:text="4"
+                android:textSize="@dimen/text_button_size" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewIP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/button_margin"
+        android:text="255.255.255.255"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/text_size" />
+
+</RelativeLayout>

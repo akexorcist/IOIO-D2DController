@@ -1,0 +1,130 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#555555" >
+
+    <requestFocus />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+	    <LinearLayout
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="@dimen/ip_margin_left"
+	        android:layout_marginTop="@dimen/ip_margin_vertical"
+	        android:gravity="center"
+	        android:orientation="horizontal" >
+
+	        <Button
+	            android:id="@+id/buttonFind"
+	            android:layout_width="@dimen/button_find_size"
+	            android:layout_height="@dimen/button_find_size"
+	            android:layout_marginBottom="@dimen/button_margin"
+	            android:layout_marginTop="@dimen/button_margin"
+	            android:background="@drawable/button_find" />
+
+	        <EditText
+	            android:id="@+id/editTextIP"
+	            android:layout_width="@dimen/edittext_width"
+	            android:layout_height="@dimen/edittext_height"
+	            android:layout_marginBottom="@dimen/ip_margin_vertical"
+	            android:layout_marginTop="@dimen/ip_margin_vertical"
+	            android:background="@drawable/edittext_bg"
+	            android:gravity="center"
+	            android:hint="Target IP"
+	            android:lines="1"
+	            android:maxLength="15"
+	            android:textColor="#333333"
+	            android:textColorHint="#dddddd"
+	            android:textSize="@dimen/text_size" />
+
+	    </LinearLayout>
+        <Button
+            android:id="@+id/buttonMode"
+            android:layout_width="@dimen/button_mode_width"
+            android:layout_height="@dimen/button_mode_height"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="@dimen/button_margin"
+            android:background="@drawable/button_mode"
+            android:button="@null"
+            android:checked="false" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical" >
+	    <LinearLayout
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" >
+
+		    <CheckBox
+		        android:id="@+id/checkBox1"
+		        android:layout_width="@dimen/button_size"
+		        android:layout_height="@dimen/button_size"
+		        android:layout_margin="@dimen/button_margin"
+		        android:background="@drawable/button_led"
+		        android:button="@null"
+		        android:gravity="center"
+		        android:text="1"
+		        android:textSize="@dimen/text_button_size" />
+		
+		    <CheckBox
+		        android:id="@+id/checkBox2"
+		        android:layout_width="@dimen/button_size"
+		        android:layout_height="@dimen/button_size"
+		        android:layout_margin="@dimen/button_margin"
+		        android:background="@drawable/button_led"
+		        android:button="@null"
+		        android:gravity="center"
+		        android:text="2"
+		        android:textSize="@dimen/text_button_size" />
+
+	    </LinearLayout>
+		<LinearLayout
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" >
+
+		    <CheckBox
+		        android:id="@+id/checkBox3"
+		        android:layout_width="@dimen/button_size"
+		        android:layout_height="@dimen/button_size"
+		        android:layout_margin="@dimen/button_margin"
+		        android:background="@drawable/button_led"
+		        android:button="@null"
+		        android:gravity="center"
+		        android:text="3"
+		        android:textSize="@dimen/text_button_size" />
+		
+		    <CheckBox
+		        android:id="@+id/checkBox4"
+		        android:layout_width="@dimen/button_size"
+		        android:layout_height="@dimen/button_size"
+		        android:layout_margin="@dimen/button_margin"
+		        android:background="@drawable/button_led"
+		        android:button="@null"
+		        android:gravity="center"
+		        android:text="4"
+		        android:textSize="@dimen/text_button_size" />
+
+	    </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonRefresh"
+        android:layout_width="@dimen/button_refresh_size"
+        android:layout_height="@dimen/button_refresh_size"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/button_update" />
+
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<resources>
+    <dimen name="button_size">250dp</dimen>
+    <dimen name="button_mode_height">125dp</dimen>
+    <dimen name="button_mode_width">250dp</dimen>
+    <dimen name="button_margin">20dp</dimen>
+    <dimen name="text_button_size">80dp</dimen>
+    <dimen name="text_size">40dp</dimen>
+    <dimen name="edittext_width">360dp</dimen>
+    <dimen name="edittext_height">100dp</dimen>
+    <dimen name="button_find_size">100dp</dimen>
+    <dimen name="ip_margin_vertical">15dp</dimen>
+    <dimen name="ip_margin_left">25dp</dimen>
+    <dimen name="dialog_width">450dp</dimen>
+    <dimen name="dialog_height">600dp</dimen>
+    <dimen name="dialog_margin">40dp</dimen>
+    <dimen name="button_scan_text_size">40dp</dimen>
+    <dimen name="button_scan_height">60dp</dimen>
+    <dimen name="listview_margin">40dp</dimen>
+    <dimen name="button_close_size">80dp</dimen>
+    <dimen name="button_refresh_size">150dp</dimen>
+</resources>

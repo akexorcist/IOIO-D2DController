@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dialog_width"
+    android:layout_height="@dimen/dialog_height"
+    android:background="#555555" >
+
+	<Button
+	    android:id="@+id/buttonClose"
+	    android:layout_width="@dimen/button_close_size"
+	    android:layout_height="@dimen/button_close_size"
+	    android:layout_alignParentRight="true"
+	    android:layout_alignParentTop="true"
+	    android:background="@drawable/button_close" />
+
+	<ListView
+	    android:id="@+id/listViewIP"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_centerHorizontal="true"
+	    android:layout_centerVertical="true"
+	    android:layout_margin="@dimen/listview_margin" />
+
+	<ProgressBar
+	    android:id="@+id/progressBarLoad"
+	    style="?android:attr/progressBarStyleLarge"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerHorizontal="true"
+	    android:layout_centerVertical="true" />
+
+	<Button
+	    android:id="@+id/buttonScan"
+	    android:layout_width="match_parent"
+	    android:layout_height="@dimen/button_scan_height"
+	    android:layout_alignParentBottom="true"
+	    android:layout_alignParentRight="true"
+	    android:background="@drawable/button_scan"
+	    android:text="SCAN"
+	    android:textColor="#FFFFFF"
+	    android:textSize="@dimen/button_scan_text_size"
+	    android:textStyle="bold" />
+
+</RelativeLayout>
